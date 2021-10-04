@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Kate</title>
+	<link href="./forms-end.css" rel="stylesheet">
+	<link href="./website.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="./home.html">Home</a></li>
+			<li><a href="./about.html">About Kate</a></li>
+			<li><a href="./cats.html">Oh My Cats!</a></li>
+			<li><a href="./food.html">Nom Noms</a></li>
+			<li><a href="./projects.html">Learning</a></li>
+			<li><a href="./contact.html">Contact Kate</a></li>
+		</ul>
+		</nav>
+	<div class="wrapper">
+		<section>
+			<h1>Contact Kate</h1>
+			<p>Talk to Kate about anything and everything.</p>
+			<form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES">
+				<fieldset>
+					<legend>Your contact information</legend>
+					<label for="name">Your name </label>
+					<input type="text" id="name" name="name" autofocus>
+					<label for="phone">Phone number</label>
+					<input type="tel" id="phone" name="phone" placeholder="Don't forget the area code!">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email">
+
+				</fieldset>
+				<fieldset>
+					<legend>About your meeting </legend>
+					<label for="date">Requested date</label>
+					<input type="date" id="date" name="date">
+					<label for="qty">How many people would you like on the call?</label>
+					<input type="number" id="qty" name="qty" min="1" max="10">
+
+					<p>What type of meeting do you prefer?</p>
+					<label>
+						<input type="radio" name="calltype" value="zoom" checked>Zoom
+					</label>
+					<label>
+						<input type="radio" name="calltype" value="webex">WebEx
+					</label>
+					<label>
+						<input type="radio" name="calltype" value="Teams">Microsoft Teams
+					</label>
+					<label>
+						<input type="radio" name="calltype" value="phone">Cell phone
+					</label>
+					<label>
+						<input type="radio" name="calltype" value="any">Surprise me
+					</label>
+
+					<label for="mtgtime">How long do you want to schedule the meeting for?</label>
+					<select id="mtgtime" name="mtgtime">
+						<option selected>Select one...</option>
+						<option value="15min">15 minutes</option>
+						<option value="30min">30 minutes</option>
+						<option value="45min">45 minutes</option>
+						<option value="60min">60 minutes</option>
+					</select>
+
+					<label for="comments">What's the meeting for?</label>
+					<textarea id="comments" name="comments"></textarea>
+                    <button type="submit">Submit</button>
+				</fieldset>
+			</form>
+
+		</section>
+		<aside>
+			<h3>Kate's Work Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2935.7210111241507!2d-71.18380148537811!3d42.624872526330904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e309db81ce56b1%3A0x9f1b33c570dbdcae!2sHewlett%20Packard%20Enterprise!5e0!3m2!1sen!2sus!4v1633277075510!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<address>
+				Hewlett Packard Enterprise <br>
+				165 Dascomb Road <br>
+				Andover, MA 01810
+			</address>
+		</aside>
+	</div>
+	<script src="./forms.js"></script>
+</body>
+<footer>
+	<p>Thanks for visiting! Come back again soon. Find Kate on Teams, Slack, and email.</p>
+	<p>All Rights Reserved ©️ | 2021 | Katherine L. Domenichella</p>
+</footer>
+</html>

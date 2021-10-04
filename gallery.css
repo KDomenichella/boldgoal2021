@@ -1,0 +1,43 @@
+/* styles for the gallery*/
+
+.gallery-img {
+    display: none;
+    max-height: 400px;
+}
+.active {
+    display: block;
+}
+.image-gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: #a6351c;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+.prev {
+    margin-right: 15px;
+}
+.btn:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
+.photoblurb {
+    text-align: center;
+}
