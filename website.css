@@ -1,25 +1,25 @@
 /*fonts*/
 
 h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 24px;
     color: black;
 }
 
 h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 18px;
     color: black;
 }
 
 p {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 16px;
     color: black;
 }
 
 ul {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: 'Shadows Into Light', cursive;
     font-size: 16px;
     color: black;
 }
@@ -44,7 +44,7 @@ ul {
 /*header*/
 
 header {
-    background-color: #4e4d59;
+    background-color: #BABDBF;
     text-align: center;
     padding: 10px 10px 10px 10px;
     border-radius: 1rem;
@@ -53,14 +53,14 @@ header {
 /*body*/
 
 body {
-    background-color: #f2dfce;
+    background-color: #d9d9d9;
 }
 
 
 /*footer*/
 
 footer {
-    background-color: #97B8C2;
+    background-color: #4e4d59;
     text-align: center;
     padding: 5px 5px 5px 5px;
     margin-top: 20px;
