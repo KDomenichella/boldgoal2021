@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 .wrapper {
-    width: 400px;
+    width: 350px;
     background-color: #A9B6CC;
     color: black;
 }
@@ -21,15 +21,15 @@ body {
 }
 .screen {
     text-align: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Shadows Into Light', cursive;
     padding: 20px 5px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .calc-button {
     background-color: #BDCC94;
     color: black;
     border: none;
-    font-size: 40px;
+    font-size: 35px;
     height: 100px;
     flex-basis: 24.5%;
 }

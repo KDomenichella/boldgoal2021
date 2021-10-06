@@ -63,12 +63,7 @@ function sendData() {
       "=" +
       encodeURIComponent(form.querySelector("[name='comments']").value)
   );
-  urlEncodedDataPairs.push(
-    encodeURIComponent("subscribe") +
-      "=" +
-      encodeURIComponent(form.querySelector("[name='subscribe']").checked)
-  );
-
+ 
   // Combine the pairs into a single string and replace all %-encoded spaces to
   // the '+' character; matches the behaviour of browser form submissions.
   urlEncodedData = urlEncodedDataPairs.join("&").replace(/%20/g, "+");
