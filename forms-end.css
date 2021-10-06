@@ -17,6 +17,7 @@ body {
 	background-color: #97b8c2;
 	display: flex;
 	flex-flow: row nowrap;
+	border-radius: 10px;
 }
 section {
 	flex-basis: 57%;
