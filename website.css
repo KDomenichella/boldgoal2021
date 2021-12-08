@@ -172,3 +172,7 @@ img {
 	border-color: transparent black transparent transparent;
 	display: none;
 }
+
+.tooltip:hover:before, .tooltip:hover:after {
+	display: block;
+}
