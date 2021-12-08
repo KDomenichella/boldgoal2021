@@ -144,3 +144,7 @@ img {
 	text-align: center; /* this line and the previous three lines are for general styles */
 	display: none; /* hide by default */ 
 }
+
+.tooltip:hover:before {
+	display: block;
+}
