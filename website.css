@@ -121,3 +121,26 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*tooltip*/
+
+.tooltip {
+	position: relative; /* making the .tooltip span the container for a tooltip text */
+	border-bottom: 1px dashed #0000; /* little indicator to indicate it's hoverable */
+}
+
+.tooltip:before {
+	content: attr(data-text); /* here's the magic */
+	position: absolute;
+	top: 50%; 
+	transform: translateY(-50%); /* this line and the line above are for vertical centering */
+	left: 100%;
+	margin-left: 15px; /* this line and the line above are for adding a small left margin */
+	width: 200px;
+	padding: 10px;
+	border-radius: 10px;
+	background: #0000; 
+	color: #ffff; 
+	text-align: center; /* this line and the previous three lines are for general styles */
+	display: none; /* hide by default */ 
+}
