@@ -126,7 +126,7 @@ img {
 
 .tooltip {
 	position: relative; /* making the .tooltip span the container for a tooltip text */
-	border-bottom: 1px dashed #0000; /* little indicator to indicate it's hoverable */
+	border-bottom: 1px dashed red; /* little indicator to indicate it's hoverable */
 }
 
 .tooltip:before {
@@ -139,7 +139,7 @@ img {
 	width: 200px;
 	padding: 10px;
 	border-radius: 10px;
-	background: #0000; 
+	background: orange; 
 	color: #ffff; 
 	text-align: center; /* this line and the previous three lines are for general styles */
 	display: none; /* hide by default */ 
@@ -168,7 +168,7 @@ img {
 	top: 50%;
 	transform: translateY(-50);
 	/* the arrow */
-	border: 10px solid #000;
+	border: 10px solid green;
 	border-color: transparent black transparent transparent;
 	display: none;
 }
